@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <img :src="require('@/assets/img/autoQuests.jpg')" />
+    <img style="width: 100%;" :src="require('@/assets/img/autoQuests.jpg')" />
     <p class="bold-text">使用方法：</p>
     <p>选择需要执行的任务，然后点击【启动机器人】按钮，最后点击悬浮窗口的【开始】按钮即可。</p>
 
