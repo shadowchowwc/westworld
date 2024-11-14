@@ -25,12 +25,13 @@ export default {
   overflow: hidden;
 }
 .container{
-  font-size:16px;
+  font-size: 20px;
   p{
-    margin:5px 0;
+    margin: 5px 0;
+    text-indent: 2em;
   }
   img{
-    width:100%;
+    width:80%;
   }
 }
 </style>
