@@ -3,12 +3,12 @@
     <van-nav-bar title="通宵捉鬼" left-text="返回" left-arrow @click-left="onClickLeft" />
     <van-form @failed="onFailed" @submit="handleSubmit">
       <section class="instructions">
+        <img style="width: 100%;" :src="require('@/assets/img/zhuaGui.jpg')" alt="任务示例" />
         <p style="font-weight: bold;">使用方法：</p>
         <p>1、进入本页面，点击下方【开始捉鬼】按钮</p>
         <p>2、启动梦幻西游手游app</p>
         <p>3、提前组好队伍并置于长安城</p>
         <p>4、到钟馗那领取捉鬼任务（如下）</p>
-        <img style="width: 100%;" src="@/assets/img/zhuaGui.jpg" alt="任务示例" />
         <p>5、点击悬浮窗口【开始】按钮即可</p>
       </section>      
       <div class="button-container">
