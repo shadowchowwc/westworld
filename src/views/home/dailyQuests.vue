@@ -2,7 +2,7 @@
   <div class="container">
     <van-nav-bar title="副本任务" left-text="返回" left-arrow @click-left="onClickLeft" />
     <van-form @failed="onFailed" @submit="handleSubmit">
-      <img style="width: 100%;" :src="require('@/assets/img/autoQuests.jpg')" />
+      <img style="width: 100%;" :src="require('@/assets/img/autoQuests.jpg')" alt="副本任务" />
       <p style="font-weight: bold;">使用方法：</p>
       <p>选择需要执行的任务，然后点击【启动机器人】按钮，最后点击悬浮窗口的【开始】按钮即可。</p>
       <div class="task-options">
