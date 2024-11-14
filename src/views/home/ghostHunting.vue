@@ -5,11 +5,9 @@
       <section class="instructions">
         <img style="width: 100%;" :src="require('@/assets/img/zhuaGui.jpg')" alt="任务示例" />
         <p style="font-weight: bold;">使用方法：</p>
-        <p>1、进入本页面，点击下方【开始捉鬼】按钮</p>
-        <p>2、启动梦幻西游手游app</p>
-        <p>3、提前组好队伍并置于长安城</p>
-        <p>4、到钟馗那领取捉鬼任务（如下）</p>
-        <p>5、点击悬浮窗口【开始】按钮即可</p>
+        <p>1. 点击【开始捉鬼】按钮</p>
+        <p>2. 返回游戏界面找钟馗领取捉鬼任务</p>
+        <p>3. 点击悬浮窗口的【开始】按钮即可</p>
       </section>      
       <div class="button-container">
         <van-button round block type="primary" native-type="submit">开始捉鬼</van-button>
