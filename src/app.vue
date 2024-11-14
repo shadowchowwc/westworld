@@ -12,7 +12,7 @@ export default {
   watch: {
   },
   created(){
-    auto.invoke('runRobotNow',[{robot:require('@/auto/global/robot.global2.js')}],()=>{
+    auto.invoke('runRobotNow',[{robot:require('@/auto/global/robot.screencapture.js')}],()=>{
       console.log('调用全局截图权限')
     })
   }
