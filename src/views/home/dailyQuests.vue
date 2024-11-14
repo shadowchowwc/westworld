@@ -47,7 +47,7 @@ export default {
       // 调用自动化执行
       auto.invoke(
         'runRobot',
-        [{ robot: require('@/auto/robot/robot.fiveBen'), params: { check: this.groupChecked, isInfiniteGhost: this.isInfiniteGhost } }],
+        [{ robot: require('@/auto/robot/robot.autoQuests'), params: { check: this.groupChecked, isInfiniteGhost: this.isInfiniteGhost } }],
         () => {
           // 执行后回调
         }
