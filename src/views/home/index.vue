@@ -8,11 +8,27 @@
 </div>
 </template>
 
-
-
-
-
-
+<script>
+export default {
+  data() {
+    return {
+      list: [
+        { route: 'dailyQuests', class: 'bg-black', title: '320 / 520' },
+        { route: 'ghostHunting', class: 'bg-black', title: '无限鬼' },
+        { route: 'treasureHunting', class: 'bg-black', title: '自动挖藏宝图' },
+        { route: 'sectTrials', class: 'bg-black', title: '门派争霸' },
+        { route: 'petParadise', class: 'bg-black', title: '召唤灵乐园' },
+        { route: 'towerClimbing', class: 'bg-black', title: '勇闯迷魂塔' },
+      ]
+    };
+  },
+  methods: {
+    goPage(item) {
+      this.$router.push({ name: item.route });
+    }
+  }
+};
+</script>
 
 <style lang="less">
   .home {
