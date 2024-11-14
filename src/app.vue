@@ -11,7 +11,7 @@ export default {
       await auto.invoke('runRobotNow', [{ robot: robotScript }]);
       console.log('调用全局截图权限');
     } catch (error) {
-      console.error('调用截图权限时出错:', error);
+      console.error('调用全局截图权限时出错:', error);
     }
   }
 }
