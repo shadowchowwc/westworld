@@ -58,10 +58,6 @@ export default {
   margin-bottom: 16px;
 }
 
-.task-image {
-  width: 100%;
-}
-
 .button-container {
   margin: 16px 0;
 }
