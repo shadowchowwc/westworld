@@ -4,7 +4,10 @@
     <van-form @failed="onFailed" @submit="handleSubmit">
       <img style="width: 100%;" :src="require('@/assets/img/autoQuests.jpg')" alt="副本任务" />
       <p style="font-weight: bold;">使用方法：</p>
-      <p>选择需要执行的任务，然后点击【启动机器人】按钮，最后点击悬浮窗口的【开始】按钮即可。</p>
+      <p>1. 选择需要执行的任务</p>
+      <p>2. 点击【启动机器人】按钮</p>
+      <p>3. 返回游戏界面</p>
+      <p>4. 点击悬浮窗口的【开始】按钮</p>
       <div class="task-options">
         <van-radio-group v-model="groupChecked" direction="horizontal">
           <div class="radio-row">
