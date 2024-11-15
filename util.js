@@ -30,7 +30,7 @@ function getRegion(regionStr){
   return region;
 }
 
-// OCR识别图片中的文字区域
+// OCR 识别图片中的文字区域
 function gmlkitOcr(img, options = {}) {
   const region = getRegion(options.region || '');
   const [imgWidth, imgHeight] = [img.getWidth(), img.getHeight()];
