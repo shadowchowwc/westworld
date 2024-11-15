@@ -13,7 +13,7 @@ const {
   hasText
 } = require('/sdcard/mh/templateImages/util.js');
 
-const ratioX = w / 1800;
+const ratioX = w / 1080;
 const ratioY = h / 2400;
 
 log(`RatioX: ${ratioX}, RatioY: ${ratioY}`);
