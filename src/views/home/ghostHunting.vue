@@ -33,7 +33,7 @@ export default {
       console.log(values);
       auto.invoke(
         'runRobot',
-        [{ robot: require('@/auto/robot/robot.five'), params: values }],
+        [{ robot: require('@/auto/robot/robot.ghostHunting'), params: values }],
         () => {
           console.log('完成回调');
         }
