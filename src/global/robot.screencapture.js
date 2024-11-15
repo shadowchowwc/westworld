@@ -1,1 +1,0 @@
-requestScreenCapture(true)
